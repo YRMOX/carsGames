@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Vector.hpp"
+#include "../../include/Vector.hpp"
 
 #define cout std::cout
 #define endl std::endl

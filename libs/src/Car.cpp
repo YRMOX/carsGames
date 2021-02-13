@@ -1,4 +1,4 @@
-#include "Car.hpp"
+#include "../../include/Car.hpp"
 
 Car::Car(float X, float Y, float Z){
 	loger.construct(">>Car Construction<<");
@@ -11,7 +11,7 @@ Car::~Car(){
 }
 
 void Car::update(){
-    
+
 }
 
 void Car::print(){
