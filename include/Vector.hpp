@@ -9,9 +9,10 @@ struct Vector{
     int y;
     int z;
     Vector();
-    Vector(float x, float y, float z);
+    Vector(float X, float Y, float Z);
     ~Vector();
-    void set(float x, float y, float z);
+    void set(float X, float Y, float Z);
+    void setAll(float value);
     void setOrigin();
     void print();
 };

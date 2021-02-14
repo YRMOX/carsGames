@@ -1,4 +1,4 @@
-test: main.cpp libs/src/*.cpp include/*.hpp
+carsGames: main.cpp libs/src/*.cpp include/*.hpp
 	#Génération des libs
 	g++ -c libs/src/Game.cpp -o libs/Game.lib
 	g++ -c libs/src/Car.cpp -o libs/Car.lib
@@ -10,20 +10,21 @@ test: main.cpp libs/src/*.cpp include/*.hpp
 	g++ -c libs/src/Loger.cpp -o libs/Loger.lib
 	#
 	#Génération de l'executable
-	g++ -static  main.cpp libs/*.lib -o test
+	g++ -static  main.cpp libs/*.lib -o carsGames
 
-test.exe: main.cpp libs/src/*.cpp include/*.hpp
+carsGames.exe: main.cpp libs/src/*.cpp include/*.hpp
 	#Génération des libs
-	x86_64-w64-mingw32-g++ -c libs/src/Games.cpp -o libs/Games.lib
+	x86_64-w64-mingw32-g++ -c libs/src/Game.cpp -o libs/Game.lib
 	x86_64-w64-mingw32-g++ -c libs/src/Car.cpp -o libs/Car.lib
 	x86_64-w64-mingw32-g++ -c libs/src/Engine.cpp -o libs/Engine.lib
+	x86_64-w64-mingw32-g++ -c libs/src/GearBox.cpp -o libs/GearBox.lib
 	x86_64-w64-mingw32-g++ -c libs/src/Wheel.cpp -o libs/Wheel.lib
 	x86_64-w64-mingw32-g++ -c libs/src/Formula.cpp -o libs/Formula.lib
 	x86_64-w64-mingw32-g++ -c libs/src/Vector.cpp -o libs/Vector.lib
 	x86_64-w64-mingw32-g++ -c libs/src/Loger.cpp -o libs/Loger.lib
 	#
 	#Génération de l'executable
-	x86_64-w64-mingw32-g++ -static  main.cpp libs/*.lib -o test.exe
+	x86_64-w64-mingw32-g++ -static  main.cpp libs/*.lib -o carsGames.exe
 
 clear:
 	#Suppresion des libs

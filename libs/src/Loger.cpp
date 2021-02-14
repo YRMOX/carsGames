@@ -13,8 +13,16 @@ Loger::~Loger(){
     //cout << "\033[1;31m" << "##Loger Destruction##" << "\033[0m" << endl;
 }
 
-void Loger::log(const char* message){
+template<typename T>
+void Loger::log(T message){
     cout << message << endl;
+}
+
+void Loger::boolLog(bool boolean){
+  if (boolean)
+    cout << "true" << endl;
+  else
+    cout << "false" << endl;
 }
 
 void Loger::vectorLog(float x, float y, float z){

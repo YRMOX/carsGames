@@ -7,8 +7,12 @@ struct GearBox{
     Loger loger;
     char gear;
     float* gearRatio;
-    GearBox(float* GearRatio);
+    const char* name;
+    GearBox();
+    GearBox(const char* name, float* GearRatio);
     ~GearBox();
+    void setProperties(const char* Name, float* GearRatio);
+    void setGearRatio(float* GearRatio);
     void changeGear(char Gear);
     float getGearRatio();
     void print();

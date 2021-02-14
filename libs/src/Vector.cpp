@@ -19,10 +19,12 @@ Vector::~Vector(){
 }
 
 void Vector::set(float X, float Y, float Z){
-    x = X;
-    y = Y;
-    z = Z;
+  x = X;
+  y = Y;
+  z = Z;
 }
+
+void Vector::setAll(float value){ x, y, z = value; }
 
 void Vector::setOrigin(){
 	x = 0;

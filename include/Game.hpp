@@ -6,7 +6,11 @@
 
 class Game{
   Loger loger;
-  Car carTest = Car(1, 2, 3);
+  int frameRate = 60;
+  float gearRatio[7];
+  float difRatio = 4.3;
+  float engineTorque[7];
+  Car mazdaMx5;
 public:
   Game();
   ~Game();

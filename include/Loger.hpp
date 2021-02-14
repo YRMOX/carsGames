@@ -4,7 +4,9 @@
 struct Loger{
     Loger();
     ~Loger();
-    void log(const char* message);
+    template<typename T>
+    void log(T message);
+    void boolLog(bool boolean);
     void vectorLog(float x, float y, float z);
     void construct(const char* message);
     void destruct(const char* message);

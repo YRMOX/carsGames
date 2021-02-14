@@ -5,18 +5,18 @@
 
 struct Engine{
 private:
-    Loger loger;
-    float* engineTorque;
-    bool engineState;
-    float rpm;
+  Loger loger;
+  float* engineTorque;
+  bool engineState = false;
+  float rpm;
 public:
-    Engine();
-    Engine(float* EngineTorque);
-    ~Engine();
-    void turnOnOff();
-    void update(float wheelRpm, float gearRatio, float difRatio, float analogVertical);
-    float getTorque();
-    void print();
+  Engine();
+  Engine(float* EngineTorque);
+  ~Engine();
+  void turnOnOff();
+  void update(float wheelRpm, float gearRatio, float difRatio, float analogVertical);
+  float getTorque();
+  void print();
 };
 
 #endif

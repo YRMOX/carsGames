@@ -1,12 +1,26 @@
 #include "../../include/GearBox.hpp"
 
-GearBox::GearBox(float* GearRatio){
+GearBox::GearBox(){
+  loger.construct(">>GearBox Construction<<");
+}
+
+GearBox::GearBox(const char* Name, float* GearRatio){
+  name = Name;
   gearRatio = GearRatio;
   loger.construct(">>GearBox Construction<<");
 }
 
 GearBox::~GearBox(){
   loger.destruct("##GearBox Destruction##");
+}
+
+void GearBox::setProperties(const char* Name, float* GearRatio){
+  name = Name;
+  gearRatio = GearRatio;
+}
+
+void GearBox::setGearRatio(float* GearRatio){
+  gearRatio = GearRatio;
 }
 
 void GearBox::changeGear(char Gear){ gear = Gear; }
