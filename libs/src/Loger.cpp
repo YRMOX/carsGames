@@ -17,10 +17,14 @@ void Loger::log(const char* message){
     cout << message << endl;
 }
 
+void Loger::vectorLog(float x, float y, float z){
+    cout << x << ", " << y << ", " << z << endl;
+}
+
 void Loger::construct(const char* message){
-    cout << "\033[1;32m" << message << "\033[0m" << endl;
+    //cout << "\033[1;32m" << message << "\033[0m" << endl;
 }
 
 void Loger::destruct(const char* message){
-    cout << "\033[1;31m" << message << "\033[0m" << endl;
+    //cout << "\033[1;31m" << message << "\033[0m" << endl;
 }

@@ -6,14 +6,15 @@
 struct Engine{
 private:
     Loger loger;
-    float engineTorque;
+    float* engineTorque;
     bool engineState;
     float rpm;
 public:
     Engine();
+    Engine(float* EngineTorque);
     ~Engine();
     void turnOnOff();
-    void update();
+    void update(float wheelRpm, float gearRatio, float difRatio, float analogVertical);
     float getTorque();
     void print();
 };

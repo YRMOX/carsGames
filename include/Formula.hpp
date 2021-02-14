@@ -9,9 +9,9 @@ private:
 public:
     Formula();
     ~Formula();
-    float acceleration();
-    float speed();
-    float position();
+    float acceleration(float engineTorque, float clutch, float gearRatio, float difRatio, float wheelDiameter, float mass, float analogVertical);
+    float speed(float acceleration, int frameRate, float speed);
+    float position(float acceleration, int frameRate, float speed, float position);
 };
 
 #endif

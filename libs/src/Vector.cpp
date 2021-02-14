@@ -1,9 +1,4 @@
-#include <iostream>
-
 #include "../../include/Vector.hpp"
-
-#define cout std::cout
-#define endl std::endl
 
 Vector::Vector(){
 	loger.construct(">>Vector Construction<<");
@@ -36,5 +31,5 @@ void Vector::setOrigin(){
 }
 
 void Vector::print(){
-    cout << x << ", " << y << ", " << z << endl;
+		loger.vectorLog(x, y, z);
 }
