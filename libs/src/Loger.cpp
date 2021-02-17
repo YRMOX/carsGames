@@ -1,9 +1,4 @@
-#include <iostream>
-
 #include "../../include/Loger.hpp"
-
-#define cout std::cout
-#define endl std::endl
 
 Loger::Loger(){
     //cout << "\033[1;32m" << ">>Loger Construction<<" << "\033[0m" << endl;
@@ -11,11 +6,6 @@ Loger::Loger(){
 
 Loger::~Loger(){
     //cout << "\033[1;31m" << "##Loger Destruction##" << "\033[0m" << endl;
-}
-
-template<typename T>
-void Loger::log(T message){
-    cout << message << endl;
 }
 
 void Loger::boolLog(bool boolean){
