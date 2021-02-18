@@ -9,7 +9,9 @@ Formula::~Formula(){
 }
 
 float Formula::acceleration(float engineTorque, float clutch, float gearRatio, float difRatio, float wheelDiameter, float mass, float analogVertical){
-	float acceleration = engineTorque*clutch*gearRatio*difRatio/(wheelDiameter/2)/mass*analogVertical;
+  loger.log(engineTorque);
+  loger.log(wheelDiameter);
+  float acceleration = engineTorque*clutch*gearRatio*difRatio/(wheelDiameter/2)/mass*analogVertical;
     return acceleration;
 }
 

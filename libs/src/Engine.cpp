@@ -13,6 +13,10 @@ Engine::~Engine(){
   loger.destruct("##Engine Destruction##");
 }
 
+void Engine::setProperties(float* EngineTorque){
+  engineTorque = EngineTorque;
+}
+
 void Engine::turnOnOff(){
   if (engineState)
       engineState = false;
@@ -20,10 +24,14 @@ void Engine::turnOnOff(){
       engineState = true;
 }
 
-void Engine::update(float wheelRpm, float gearRatio, float difRatio, float analogVertical){
+void Engine::update(float wheelRpm, float gearRatio, float difRatio, float clutch, float analogVertical){
   if (engineState){
-      if (rpm < 7000)
-          rpm = wheelRpm * gearRatio * difRatio * analogVertical;
+    if (rpm < 7000){
+      if (clutch == 1)
+        rpm = wheelRpm * gearRatio * difRatio * analogVertical;
+      else
+        rpm = rpm + 7000/(clutch+1)/60;
+    }
   }
 }
 

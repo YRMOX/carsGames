@@ -27,6 +27,7 @@ Game::~Game(){
 
 void Game::launch(){
   mazdaMx5.engine.turnOnOff();
-  mazdaMx5.update(60, 1, 1);
+  mazdaMx5.gearBox.changeGear('1');
+  mazdaMx5.update(60, 1, 0);
   mazdaMx5.print();
 }

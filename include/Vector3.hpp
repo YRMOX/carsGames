@@ -4,9 +4,9 @@
 #include "Loger.hpp"
 
 struct Vector3{
-  int x;
-  int y;
-  int z;
+  float x;
+  float y;
+  float z;
   Vector3();
   Vector3(float X, float Y, float Z);
   ~Vector3();

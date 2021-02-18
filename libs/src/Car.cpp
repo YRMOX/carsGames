@@ -11,9 +11,11 @@ Car::Car(const char* Brand, const char* Model, float ZeroToHundred, float* gearR
   brand = Brand;
   model = Model;
   zeroToHundred = ZeroToHundred;
+  engine.setProperties(engineTorqueAdress);
   gearBox.setProperties("NA6A", gearRatioAdress);
   difRatio = DifRatio;
   wheel.setTireReference(tire);
+  mass = Mass;
 
   acceleration.setAll(0);
   speed.setAll(0);
@@ -29,9 +31,11 @@ void Car::setProperties(const char* Brand, const char* Model, float ZeroToHundre
   brand = Brand;
   model = Model;
   zeroToHundred = ZeroToHundred;
+  engine.setProperties(engineTorqueAdress);
   gearBox.setProperties("NA6A", gearRatioAdress);
   difRatio = DifRatio;
   wheel.setTireReference(tire);
+  mass = Mass;
 
   acceleration.setAll(0);
   speed.setAll(0);
@@ -39,23 +43,16 @@ void Car::setProperties(const char* Brand, const char* Model, float ZeroToHundre
 }
 
 void Car::update(int frameRate, float analogVertical, float analogHorizontal){
-  loger.log("####debug####");
-  loger.log(engine.getTorque());
-  loger.log(clutch);
-  loger.log(gearBox.getGearRatio());
-  loger.log(difRatio);
-  loger.log(wheel.diameter);
-  loger.log(mass);
-  loger.log(analogVertical);
+  //engine.update();
   acceleration.x = formula.acceleration(engine.getTorque(), clutch, gearBox.getGearRatio(), difRatio, wheel.diameter, mass, analogVertical);
   acceleration.y = 0;
   acceleration.z = analogHorizontal;
-  speed.x = 0;
-  speed.y = 0;
-  speed.z = 0;
-  position.x = 0;
-  position.y = 0;
-  position.z = 0;
+  speed.x = formula.speed(acceleration.x, frameRate, speed.x);
+  speed.y = formula.speed(acceleration.y, frameRate, speed.y);
+  speed.z = formula.speed(acceleration.z, frameRate, speed.z);
+  position.x = formula.position(acceleration.x, frameRate, speed.x, position.x);
+  position.y = formula.position(acceleration.y, frameRate, speed.y, position.y);
+  position.z = formula.position(acceleration.z, frameRate, speed.z, position.z);
 }
 
 void Car::print(){
@@ -65,4 +62,5 @@ void Car::print(){
 	engine.print();
   gearBox.print();
   wheel.print();
+  //loger.log((0*1*0*4.3/(0.5776/2)/0*1));
 }
