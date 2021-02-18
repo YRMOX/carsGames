@@ -15,7 +15,7 @@ void Loger::boolLog(bool boolean){
     cout << "false" << endl;
 }
 
-void Loger::vectorLog(float x, float y, float z){
+void Loger::vector3Log(float x, float y, float z){
     cout << x << ", " << y << ", " << z << endl;
 }
 

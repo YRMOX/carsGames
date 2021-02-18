@@ -32,6 +32,9 @@ void Wheel::update(float carSpeed){
 }
 
 void Wheel::print(){
-  //loger.log(tireWidth);
-  //loger.log("test");
+  loger.log(tireWidth);
+  loger.log(tirePercent);
+  loger.log(tireSize);
+  loger.log(diameter);
+  loger.log(perimeter);
 }

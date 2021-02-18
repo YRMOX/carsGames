@@ -18,7 +18,15 @@ float Formula::speed(float acceleration, int frameRate, float Speed){
     return speed;
 }
 
+void Formula::vetor3Speed(Vector3& acceleration, int frameRate, Vector3& speed){
+
+}
+
 float Formula::position(float acceleration, int frameRate, float speed, float Position){
 	float position = acceleration/2/frameRate+speed/frameRate+Position;
     return position;
+}
+
+void Formula::vector3Position(Vector3& acceleration, int frameRate, Vector3& speed, Vector3& position){
+
 }

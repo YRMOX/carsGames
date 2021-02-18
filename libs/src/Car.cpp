@@ -11,7 +11,7 @@ Car::Car(const char* Brand, const char* Model, float ZeroToHundred, float* gearR
   brand = Brand;
   model = Model;
   zeroToHundred = ZeroToHundred;
-  gearbox.setProperties("NA6A", gearRatioAdress);
+  gearBox.setProperties("NA6A", gearRatioAdress);
   difRatio = DifRatio;
   wheel.setTireReference(tire);
 
@@ -29,7 +29,7 @@ void Car::setProperties(const char* Brand, const char* Model, float ZeroToHundre
   brand = Brand;
   model = Model;
   zeroToHundred = ZeroToHundred;
-  gearbox.setProperties("NA6A", gearRatioAdress);
+  gearBox.setProperties("NA6A", gearRatioAdress);
   difRatio = DifRatio;
   wheel.setTireReference(tire);
 
@@ -38,8 +38,24 @@ void Car::setProperties(const char* Brand, const char* Model, float ZeroToHundre
   position.setAll(0);
 }
 
-void Car::update(){
-
+void Car::update(int frameRate, float analogVertical, float analogHorizontal){
+  loger.log("####debug####");
+  loger.log(engine.getTorque());
+  loger.log(clutch);
+  loger.log(gearBox.getGearRatio());
+  loger.log(difRatio);
+  loger.log(wheel.diameter);
+  loger.log(mass);
+  loger.log(analogVertical);
+  acceleration.x = formula.acceleration(engine.getTorque(), clutch, gearBox.getGearRatio(), difRatio, wheel.diameter, mass, analogVertical);
+  acceleration.y = 0;
+  acceleration.z = analogHorizontal;
+  speed.x = 0;
+  speed.y = 0;
+  speed.z = 0;
+  position.x = 0;
+  position.y = 0;
+  position.z = 0;
 }
 
 void Car::print(){
@@ -47,4 +63,6 @@ void Car::print(){
   speed.print();
 	position.print();
 	engine.print();
+  gearBox.print();
+  wheel.print();
 }

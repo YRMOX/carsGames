@@ -5,7 +5,7 @@
 
 struct GearBox{
     Loger loger;
-    char gear;
+    char gear = 'N';
     float* gearRatio;
     const char* name;
     GearBox();

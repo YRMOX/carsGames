@@ -51,4 +51,5 @@ float GearBox::getGearRatio(){
 }
 
 void GearBox::print(){
+  loger.log(gear);
 }

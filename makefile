@@ -6,7 +6,7 @@ carsGames: main.cpp libs/src/*.cpp include/*.hpp
 	g++ -c libs/src/GearBox.cpp -o libs/GearBox.lib
 	g++ -c libs/src/Wheel.cpp -o libs/Wheel.lib
 	g++ -c libs/src/Formula.cpp -o libs/Formula.lib
-	g++ -c libs/src/Vector.cpp -o libs/Vector.lib
+	g++ -c libs/src/Vector3.cpp -o libs/Vector3.lib
 	g++ -c libs/src/Loger.cpp -o libs/Loger.lib
 	#
 	#Génération de l'executable
@@ -20,7 +20,7 @@ carsGames.exe: main.cpp libs/src/*.cpp include/*.hpp
 	x86_64-w64-mingw32-g++ -c libs/src/GearBox.cpp -o libs/GearBox.lib
 	x86_64-w64-mingw32-g++ -c libs/src/Wheel.cpp -o libs/Wheel.lib
 	x86_64-w64-mingw32-g++ -c libs/src/Formula.cpp -o libs/Formula.lib
-	x86_64-w64-mingw32-g++ -c libs/src/Vector.cpp -o libs/Vector.lib
+	x86_64-w64-mingw32-g++ -c libs/src/Vector3.cpp -o libs/Vector3.lib
 	x86_64-w64-mingw32-g++ -c libs/src/Loger.cpp -o libs/Loger.lib
 	#
 	#Génération de l'executable
