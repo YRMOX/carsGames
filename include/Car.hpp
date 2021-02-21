@@ -16,13 +16,14 @@ class Car{
   float zeroToHundred;
   float difRatio;
   Wheel wheel;
-  float clutch = 1;
   int mass;
   Vector3 acceleration;
+  Vector3 direction;
   Vector3 speed;
   Vector3 position;
 public:
   Engine engine;
+  float clutch = 1;
   GearBox gearBox;
   Car();
   Car(const char* Brand, const char* Model, float ZeroToHundred, float* gearRatioAdress, float DifRatio, float* engineTorqueAdress, int Mass, const char* tire);
