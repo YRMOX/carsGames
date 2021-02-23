@@ -28,7 +28,7 @@ void Wheel::setTireReference(const char* TireReference){
 }
 
 void Wheel::update(float carSpeed){
-  rpm = carSpeed/perimeter;
+  rpm = carSpeed*16.667/perimeter;
 }
 
 void Wheel::print(){
@@ -37,4 +37,5 @@ void Wheel::print(){
   loger.log(tireSize);
   loger.log(diameter);
   loger.log(perimeter);
+  loger.log(rpm);
 }

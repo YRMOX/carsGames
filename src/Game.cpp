@@ -29,18 +29,19 @@ Game::~Game(){
   loger.destruct("##Game Destruction##");
 }
 
-void commande(Loger& loger, OS& os, Keyboard& keyboard, Car& car){
-  if (true/*keyboard.ReadKey()*/){
-    loger.log("OK");
-  }
-}
-
 void Game::launch(){
-  mazdaMx5.engine.turnOnOff();
   mazdaMx5.gearBox.changeGear('1');
-  mazdaMx5.clutch = 0;
-  while (true){
-    commande(loger, os, keyboard, mazdaMx5);
+  window.setProperties(200, 200, "carsGames");
+  while (window.window.isOpen()){
+    sf::Event event;
+        while (window.window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.window.close();
+        }
+    window.window.clear();
+    window.window.display();
+    controle.carControle(mazdaMx5);
     mazdaMx5.update(frameRate, 1, 0);
     loger.clear();
     mazdaMx5.print();

@@ -3,13 +3,15 @@
 
 #include "Loger.hpp"
 #include "OS.hpp"
-#include "Keyboard.hpp"
+#include "Window.hpp"
+#include "Controle.hpp"
 #include "Car.hpp"
 
 class Game{
   Loger loger;
   OS os;
-  Keyboard keyboard;
+  Window window;
+  Controle controle;
   int frameRate = 60;
   float gearRatio[7];
   float difRatio = 4.3;

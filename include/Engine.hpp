@@ -15,7 +15,7 @@ public:
   ~Engine();
   void setProperties(float* EngineTorque);
   void turnOnOff();
-  void update(float wheelRpm, float gearRatio, float difRatio, float clutch, float analogVertical);
+  void update(int frameRate, float wheelRpm, float gearRatio, float difRatio, float clutch, float analogVertical);
   float getTorque();
   void print();
 };

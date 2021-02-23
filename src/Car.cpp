@@ -57,7 +57,7 @@ void Car::update(int frameRate, float analogVertical, float analogHorizontal){
   position.x = formula.position(acceleration.x, frameRate, speed.x, position.x);
   position.y = formula.position(acceleration.y, frameRate, speed.y, position.y);
   position.z = formula.position(acceleration.z, frameRate, speed.z, position.z);
-  engine.update(wheel.rpm, gearBox.getGearRatio(), difRatio, clutch, analogVertical);
+  engine.update(frameRate, wheel.rpm, gearBox.getGearRatio(), difRatio, clutch, analogVertical);
   wheel.update(speed.x);
 }
 
