@@ -32,15 +32,9 @@ Game::~Game(){
 void Game::launch(){
   mazdaMx5.gearBox.changeGear('1');
   window.setProperties(200, 200, "carsGames");
-  while (window.window.isOpen()){
-    sf::Event event;
-        while (window.window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
-                window.window.close();
-        }
-    window.window.clear();
-    window.window.display();
+  sf::Thread thread(&Window::launchWindow, &window);
+  thread.launch();
+  while (true) {
     controle.carControle(mazdaMx5);
     mazdaMx5.update(frameRate, 1, 0);
     loger.clear();

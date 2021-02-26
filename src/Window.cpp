@@ -1,8 +1,8 @@
 #include "../include/Window.hpp"
 
-/*Window::Window(): thread(&Window::launchWindow, this){
+Window::Window(){
   loger.construct(">>Window Construction<<");
-}*/
+}
 
 Window::~Window(){
   loger.destruct("##Window Destruction##");
@@ -10,7 +10,6 @@ Window::~Window(){
 
 void Window::setProperties(int height, int width, const char* name){
   window.create(sf::VideoMode(height, width), name);
-  //thread.launch();
 }
 
 void Window::launchWindow(){
