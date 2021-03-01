@@ -7,6 +7,8 @@ void Config::importConfig(){
   Loger loger;
   bool array = false;
   bool size = false;
+  bool na6a = false;
+  bool b6zers = false;
   std::string line;
   int arrayPlace = 0;
   std::string varName;
@@ -38,8 +40,6 @@ void Config::importConfig(){
           value += line[i];
           i++;
         }
-        //std::cout << varName << " ";
-        //std::cout << value << std::endl;
         if (varName == "name"){
           name = value;
         }
@@ -49,6 +49,9 @@ void Config::importConfig(){
           } else {
             fullScreen = false;
           }
+        }
+        if (varName == "frameRateLimit"){
+          frameRateLimit = std::stoi(value);
         }
         value = "";
       } else {
@@ -60,17 +63,40 @@ void Config::importConfig(){
         if (varName == "size"){
           size = true;
         }
+        if (varName == "NA6A"){
+          na6a = true;
+        }
+        if (varName == "B6ZERS"){
+          b6zers = true;
+        }
         if (size && varName == "size"){
-          if (arrayPlace == 1){
-            width = std::stoi(value);
-            arrayPlace++;
-          }
           if (arrayPlace == 0){
             height = std::stoi(value);
             arrayPlace++;
+            size = false;
+          }else if (arrayPlace == 1){
+            width = std::stoi(value);
+            arrayPlace = 0;
           }
         }
-        //std::cout << value << std::endl;
+        if (na6a && varName == "NA6A"){
+          NA6A[arrayPlace] = std::stof(value);
+          if (arrayPlace == 6){
+            na6a = false;
+            arrayPlace = 0;
+          } else {
+            arrayPlace++;
+          }
+        }
+        if (b6zers && varName == "B6ZERS"){
+          B6ZERS[arrayPlace] = std::stof(value);
+          if (arrayPlace == 6){
+            arrayPlace = 0;
+            b6zers = false;
+          } else {
+            arrayPlace++;
+          }
+        }
         value = "";
       }
     }

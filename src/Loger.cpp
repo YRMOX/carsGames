@@ -7,13 +7,13 @@ void Loger::boolLog(bool boolean){
     cout << "false\n";
 }
 
-void Loger::vector3Log(float x, float y, float z){
+void Loger::vector3FLog(float x, float y, float z){
     cout << x << ", " << y << ", " << z << "\n";
 }
 
 void Loger::clear(){
   FILE *fos = NULL;
-  fos = fopen("ficher.txt", "a+");
+  fos = fopen("Config.yaml", "a+");
   if (fos == NULL){
     system("cls");
   }

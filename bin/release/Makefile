@@ -217,6 +217,60 @@ src/Loger.cpp.s:
 	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Loger.cpp.s
 .PHONY : src/Loger.cpp.s
 
+src/Maths/CarFormula.o: src/Maths/CarFormula.cpp.o
+
+.PHONY : src/Maths/CarFormula.o
+
+# target to build an object file
+src/Maths/CarFormula.cpp.o:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.o
+.PHONY : src/Maths/CarFormula.cpp.o
+
+src/Maths/CarFormula.i: src/Maths/CarFormula.cpp.i
+
+.PHONY : src/Maths/CarFormula.i
+
+# target to preprocess a source file
+src/Maths/CarFormula.cpp.i:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.i
+.PHONY : src/Maths/CarFormula.cpp.i
+
+src/Maths/CarFormula.s: src/Maths/CarFormula.cpp.s
+
+.PHONY : src/Maths/CarFormula.s
+
+# target to generate assembly for a file
+src/Maths/CarFormula.cpp.s:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.s
+.PHONY : src/Maths/CarFormula.cpp.s
+
+src/Maths/Vector3F.o: src/Maths/Vector3F.cpp.o
+
+.PHONY : src/Maths/Vector3F.o
+
+# target to build an object file
+src/Maths/Vector3F.cpp.o:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.o
+.PHONY : src/Maths/Vector3F.cpp.o
+
+src/Maths/Vector3F.i: src/Maths/Vector3F.cpp.i
+
+.PHONY : src/Maths/Vector3F.i
+
+# target to preprocess a source file
+src/Maths/Vector3F.cpp.i:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.i
+.PHONY : src/Maths/Vector3F.cpp.i
+
+src/Maths/Vector3F.s: src/Maths/Vector3F.cpp.s
+
+.PHONY : src/Maths/Vector3F.s
+
+# target to generate assembly for a file
+src/Maths/Vector3F.cpp.s:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.s
+.PHONY : src/Maths/Vector3F.cpp.s
+
 src/Vehicle/Car.o: src/Vehicle/Car.cpp.o
 
 .PHONY : src/Vehicle/Car.o
@@ -298,33 +352,6 @@ src/Vehicle/Engine.cpp.s:
 	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.s
 .PHONY : src/Vehicle/Engine.cpp.s
 
-src/Vehicle/Formula.o: src/Vehicle/Formula.cpp.o
-
-.PHONY : src/Vehicle/Formula.o
-
-# target to build an object file
-src/Vehicle/Formula.cpp.o:
-	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.o
-.PHONY : src/Vehicle/Formula.cpp.o
-
-src/Vehicle/Formula.i: src/Vehicle/Formula.cpp.i
-
-.PHONY : src/Vehicle/Formula.i
-
-# target to preprocess a source file
-src/Vehicle/Formula.cpp.i:
-	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.i
-.PHONY : src/Vehicle/Formula.cpp.i
-
-src/Vehicle/Formula.s: src/Vehicle/Formula.cpp.s
-
-.PHONY : src/Vehicle/Formula.s
-
-# target to generate assembly for a file
-src/Vehicle/Formula.cpp.s:
-	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.s
-.PHONY : src/Vehicle/Formula.cpp.s
-
 src/Vehicle/GearBox.o: src/Vehicle/GearBox.cpp.o
 
 .PHONY : src/Vehicle/GearBox.o
@@ -351,33 +378,6 @@ src/Vehicle/GearBox.s: src/Vehicle/GearBox.cpp.s
 src/Vehicle/GearBox.cpp.s:
 	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.s
 .PHONY : src/Vehicle/GearBox.cpp.s
-
-src/Vehicle/Vector3.o: src/Vehicle/Vector3.cpp.o
-
-.PHONY : src/Vehicle/Vector3.o
-
-# target to build an object file
-src/Vehicle/Vector3.cpp.o:
-	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.o
-.PHONY : src/Vehicle/Vector3.cpp.o
-
-src/Vehicle/Vector3.i: src/Vehicle/Vector3.cpp.i
-
-.PHONY : src/Vehicle/Vector3.i
-
-# target to preprocess a source file
-src/Vehicle/Vector3.cpp.i:
-	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.i
-.PHONY : src/Vehicle/Vector3.cpp.i
-
-src/Vehicle/Vector3.s: src/Vehicle/Vector3.cpp.s
-
-.PHONY : src/Vehicle/Vector3.s
-
-# target to generate assembly for a file
-src/Vehicle/Vector3.cpp.s:
-	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.s
-.PHONY : src/Vehicle/Vector3.cpp.s
 
 src/Vehicle/Wheel.o: src/Vehicle/Wheel.cpp.o
 
@@ -479,6 +479,12 @@ help:
 	@echo "... src/Loger.o"
 	@echo "... src/Loger.i"
 	@echo "... src/Loger.s"
+	@echo "... src/Maths/CarFormula.o"
+	@echo "... src/Maths/CarFormula.i"
+	@echo "... src/Maths/CarFormula.s"
+	@echo "... src/Maths/Vector3F.o"
+	@echo "... src/Maths/Vector3F.i"
+	@echo "... src/Maths/Vector3F.s"
 	@echo "... src/Vehicle/Car.o"
 	@echo "... src/Vehicle/Car.i"
 	@echo "... src/Vehicle/Car.s"
@@ -488,15 +494,9 @@ help:
 	@echo "... src/Vehicle/Engine.o"
 	@echo "... src/Vehicle/Engine.i"
 	@echo "... src/Vehicle/Engine.s"
-	@echo "... src/Vehicle/Formula.o"
-	@echo "... src/Vehicle/Formula.i"
-	@echo "... src/Vehicle/Formula.s"
 	@echo "... src/Vehicle/GearBox.o"
 	@echo "... src/Vehicle/GearBox.i"
 	@echo "... src/Vehicle/GearBox.s"
-	@echo "... src/Vehicle/Vector3.o"
-	@echo "... src/Vehicle/Vector3.i"
-	@echo "... src/Vehicle/Vector3.s"
 	@echo "... src/Vehicle/Wheel.o"
 	@echo "... src/Vehicle/Wheel.i"
 	@echo "... src/Vehicle/Wheel.s"

@@ -1,14 +1,14 @@
-#ifndef VECTOR3_HPP
-#define VECTOR3_HPP
+#ifndef VECTOR3F_HPP
+#define VECTOR3F_HPP
 
 #include "../Loger.hpp"
 
-struct Vector3{
+struct Vector3F{
   float x;
   float y;
   float z;
-  Vector3();
-  Vector3(float X, float Y, float Z);
+  Vector3F();
+  Vector3F(float X, float Y, float Z);
   void set(float X, float Y, float Z);
   void setAll(float value);
   void setOrigin();

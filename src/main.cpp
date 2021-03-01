@@ -9,6 +9,6 @@ int main()
   Loger loger;
   Config config;
   config.importConfig();
-  Application game(config.height, config.width, config.name.c_str());
+  Application game(config);
   return game.runApp();
 }

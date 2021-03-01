@@ -9,7 +9,7 @@ struct Loger{
     template<typename T>
     void log(T message){ cout << message << "\n"; }
     void boolLog(bool boolean);
-    void vector3Log(float x, float y, float z);
+    void vector3FLog(float x, float y, float z);
     void clear();
 };
 #endif

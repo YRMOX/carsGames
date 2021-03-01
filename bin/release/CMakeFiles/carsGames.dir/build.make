@@ -96,9 +96,35 @@ CMakeFiles/carsGames.dir/src/Loger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carsGames.dir/src/Loger.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yrmox/Projet/C++/carsGames/src/Loger.cpp -o CMakeFiles/carsGames.dir/src/Loger.cpp.s
 
+CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.o: CMakeFiles/carsGames.dir/flags.make
+CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.o: ../../src/Maths/CarFormula.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.o -c /home/yrmox/Projet/C++/carsGames/src/Maths/CarFormula.cpp
+
+CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yrmox/Projet/C++/carsGames/src/Maths/CarFormula.cpp > CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.i
+
+CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yrmox/Projet/C++/carsGames/src/Maths/CarFormula.cpp -o CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.s
+
+CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.o: CMakeFiles/carsGames.dir/flags.make
+CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.o: ../../src/Maths/Vector3F.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.o -c /home/yrmox/Projet/C++/carsGames/src/Maths/Vector3F.cpp
+
+CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yrmox/Projet/C++/carsGames/src/Maths/Vector3F.cpp > CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.i
+
+CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yrmox/Projet/C++/carsGames/src/Maths/Vector3F.cpp -o CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.s
+
 CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o: CMakeFiles/carsGames.dir/flags.make
 CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o: ../../src/Vehicle/Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o -c /home/yrmox/Projet/C++/carsGames/src/Vehicle/Car.cpp
 
 CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.i: cmake_force
@@ -111,7 +137,7 @@ CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.s: cmake_force
 
 CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o: CMakeFiles/carsGames.dir/flags.make
 CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o: ../../src/Vehicle/Controle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o -c /home/yrmox/Projet/C++/carsGames/src/Vehicle/Controle.cpp
 
 CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.i: cmake_force
@@ -124,7 +150,7 @@ CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.s: cmake_force
 
 CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.o: CMakeFiles/carsGames.dir/flags.make
 CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.o: ../../src/Vehicle/Engine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.o -c /home/yrmox/Projet/C++/carsGames/src/Vehicle/Engine.cpp
 
 CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.i: cmake_force
@@ -135,22 +161,9 @@ CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yrmox/Projet/C++/carsGames/src/Vehicle/Engine.cpp -o CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.s
 
-CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.o: CMakeFiles/carsGames.dir/flags.make
-CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.o: ../../src/Vehicle/Formula.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.o -c /home/yrmox/Projet/C++/carsGames/src/Vehicle/Formula.cpp
-
-CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yrmox/Projet/C++/carsGames/src/Vehicle/Formula.cpp > CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.i
-
-CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yrmox/Projet/C++/carsGames/src/Vehicle/Formula.cpp -o CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.s
-
 CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.o: CMakeFiles/carsGames.dir/flags.make
 CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.o: ../../src/Vehicle/GearBox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.o -c /home/yrmox/Projet/C++/carsGames/src/Vehicle/GearBox.cpp
 
 CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.i: cmake_force
@@ -160,19 +173,6 @@ CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.i: cmake_force
 CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yrmox/Projet/C++/carsGames/src/Vehicle/GearBox.cpp -o CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.s
-
-CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.o: CMakeFiles/carsGames.dir/flags.make
-CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.o: ../../src/Vehicle/Vector3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yrmox/Projet/C++/carsGames/bin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.o -c /home/yrmox/Projet/C++/carsGames/src/Vehicle/Vector3.cpp
-
-CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yrmox/Projet/C++/carsGames/src/Vehicle/Vector3.cpp > CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.i
-
-CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yrmox/Projet/C++/carsGames/src/Vehicle/Vector3.cpp -o CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.s
 
 CMakeFiles/carsGames.dir/src/Vehicle/Wheel.cpp.o: CMakeFiles/carsGames.dir/flags.make
 CMakeFiles/carsGames.dir/src/Vehicle/Wheel.cpp.o: ../../src/Vehicle/Wheel.cpp
@@ -205,12 +205,12 @@ carsGames_OBJECTS = \
 "CMakeFiles/carsGames.dir/src/Application.cpp.o" \
 "CMakeFiles/carsGames.dir/src/Config.cpp.o" \
 "CMakeFiles/carsGames.dir/src/Loger.cpp.o" \
+"CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.o" \
+"CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.o" \
 "CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o" \
 "CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o" \
 "CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.o" \
-"CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.o" \
 "CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.o" \
-"CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.o" \
 "CMakeFiles/carsGames.dir/src/Vehicle/Wheel.cpp.o" \
 "CMakeFiles/carsGames.dir/src/main.cpp.o"
 
@@ -220,12 +220,12 @@ carsGames_EXTERNAL_OBJECTS =
 carsGames: CMakeFiles/carsGames.dir/src/Application.cpp.o
 carsGames: CMakeFiles/carsGames.dir/src/Config.cpp.o
 carsGames: CMakeFiles/carsGames.dir/src/Loger.cpp.o
+carsGames: CMakeFiles/carsGames.dir/src/Maths/CarFormula.cpp.o
+carsGames: CMakeFiles/carsGames.dir/src/Maths/Vector3F.cpp.o
 carsGames: CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o
 carsGames: CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o
 carsGames: CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.o
-carsGames: CMakeFiles/carsGames.dir/src/Vehicle/Formula.cpp.o
 carsGames: CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.o
-carsGames: CMakeFiles/carsGames.dir/src/Vehicle/Vector3.cpp.o
 carsGames: CMakeFiles/carsGames.dir/src/Vehicle/Wheel.cpp.o
 carsGames: CMakeFiles/carsGames.dir/src/main.cpp.o
 carsGames: CMakeFiles/carsGames.dir/build.make

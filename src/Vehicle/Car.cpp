@@ -39,17 +39,9 @@ void Car::setProperties(const char* Brand, const char* Model, float ZeroToHundre
 
 void Car::update(int frameRate, float analogVertical, float analogHorizontal){
   acceleration.x = formula.acceleration(engine.getTorque(), clutch, gearBox.getGearRatio(), difRatio, wheel.diameter, mass, analogVertical);
-  acceleration.y = 0;
-  acceleration.z = 0;
-  direction.x = 0;
-  direction.y = 0;
   direction.z = direction.z + analogHorizontal;
-  speed.x = formula.speed(acceleration.x, frameRate, speed.x);
-  speed.y = formula.speed(acceleration.y, frameRate, speed.y);
-  speed.z = formula.speed(acceleration.z, frameRate, speed.z);
-  position.x = formula.position(acceleration.x, frameRate, speed.x, position.x);
-  position.y = formula.position(acceleration.y, frameRate, speed.y, position.y);
-  position.z = formula.position(acceleration.z, frameRate, speed.z, position.z);
+  speed = formula.vector3FSpeed(acceleration, frameRate, speed);
+  position = formula.vector3FPosition(acceleration, frameRate, speed, position);
   engine.update(frameRate, wheel.rpm, gearBox.getGearRatio(), difRatio, clutch, analogVertical);
   wheel.update(speed.x);
 }
@@ -62,5 +54,4 @@ void Car::print(){
 	engine.print();
   gearBox.print();
   wheel.print();
-  //loger.log((0*1*0*4.3/(0.5776/2)/0*1));
 }

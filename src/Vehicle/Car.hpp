@@ -2,26 +2,26 @@
 #define CAR_HPP
 
 #include "../Loger.hpp"
-#include "Formula.hpp"
+#include "../Maths/CarFormula.hpp"
+#include "../Maths/Vector3F.hpp"
 #include "Wheel.hpp"
-#include "Vector3.hpp"
 #include "Engine.hpp"
 #include "GearBox.hpp"
 
 class Car{
   Loger loger;
-  Formula formula;
+  CarFormula formula;
   const char* brand;
   const char* model;
   float zeroToHundred;
   float difRatio;
   Wheel wheel;
   int mass;
-  Vector3 acceleration;
-  Vector3 direction;
-  Vector3 speed;
+  Vector3F acceleration;
+  Vector3F direction;
+  Vector3F speed;
 public:
-  Vector3 position;
+  Vector3F position;
   Engine engine;
   float clutch = 1;
   GearBox gearBox;

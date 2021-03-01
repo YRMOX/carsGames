@@ -1,16 +1,16 @@
-#ifndef FORMULA_HPP
-#define FORMULA_HPP
+#ifndef CARFORMULA_HPP
+#define CARFORMULA_HPP
 
 #include "../Loger.hpp"
-#include "Vector3.hpp"
+#include "Vector3F.hpp"
 
-struct Formula{
+struct CarFormula{
   Loger loger;
   float acceleration(float engineTorque, float clutch, float gearRatio, float difRatio, float wheelDiameter, float mass, float analogVertical);
   float speed(float acceleration, int frameRate, float speed);
-  void vetor3Speed(Vector3& acceleration, int frameRate, Vector3& speed);
+  Vector3F vector3FSpeed(Vector3F& acceleration, int frameRate, Vector3F& speed);
   float position(float acceleration, int frameRate, float speed, float position);
-  void vector3Position(Vector3& acceleration, int frameRate, Vector3& speed, Vector3& position);
+  Vector3F vector3FPosition(Vector3F& acceleration, int frameRate, Vector3F& speed, Vector3F& position);
 };
 
 #endif
