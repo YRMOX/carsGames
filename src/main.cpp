@@ -1,9 +1,14 @@
-#include "../include/Game.hpp"
+#include "Loger.hpp"
+#include "Config.hpp"
+#include "Application.hpp"
 
-#define cout std::cout
-#define endl std::endl
+#include <SFML/Graphics.hpp>
 
-int main(){
-  Game carsGames;
-  carsGames.launch();
+int main()
+{
+  Loger loger;
+  Config config;
+  config.importConfig();
+  Application game(config.height, config.width, config.name.c_str());
+  return game.runApp();
 }
