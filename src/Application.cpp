@@ -1,4 +1,3 @@
-#include "Vehicle/Controle.hpp"
 #include "Application.hpp"
 
 Application::Application(Config& Config){
@@ -22,13 +21,16 @@ int Application::runApp(){
       float frameRate = 1 / deltaTime.asSeconds();
       clock.restart();
 
-      controle.carControle(mazdaMx5);
-      mazdaMx5.update(config.frameRateLimit, 1, 0);
-      loger.clear();
-      mazdaMx5.print();
+      keyboardControle.carControle(mazdaMx5);
+      arduinoControle.carControle(mazdaMx5);
+      mazdaMx5.update(config.frameRateLimit, deltaTime.asSeconds());
+      //loger.clear();
+      //mazdaMx5.print();
 
-      sf::RectangleShape car(sf::Vector2f(10, 10));
-      car.setPosition(mazdaMx5.position.x, 20);
+      sf::RectangleShape car(sf::Vector2f(20, 10));
+      car.setOrigin(car.getSize().x/2, car.getSize().y/2);
+      car.setRotation(mazdaMx5.direction.z/3.14*180);
+      car.setPosition(mazdaMx5.position.x, mazdaMx5.position.y);
 
       window.clear();
       window.draw(car);

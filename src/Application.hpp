@@ -3,7 +3,8 @@
 
 #include "Loger.hpp"
 #include "Config.hpp"
-#include "Vehicle/Controle.hpp"
+#include "Input/KeyboardControle.hpp"
+#include "Input/ArduinoControle.hpp"
 #include "Vehicle/Car.hpp"
 #include <SFML/Graphics.hpp>
 
@@ -11,7 +12,8 @@ class Application{
   sf::Clock clock;
   Loger loger;
   Config config;
-  Controle controle;
+  KeyboardControle keyboardControle;
+  ArduinoControle arduinoControle;
   Car mazdaMx5;
   sf::Time deltaTime;
   sf::RenderWindow window;

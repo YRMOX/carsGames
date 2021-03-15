@@ -4,18 +4,46 @@
 CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Application.cpp
 CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Application.hpp
 CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Config.hpp
+CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Input/ArduinoControle.hpp
+CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Input/KeyboardControle.hpp
 CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Loger.hpp
 CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Maths/CarFormula.hpp
 CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Maths/Vector3F.hpp
 CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Vehicle/Car.hpp
-CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Vehicle/Controle.hpp
 CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Vehicle/Engine.hpp
 CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Vehicle/GearBox.hpp
+CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Vehicle/Steering.hpp
 CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/Vehicle/Wheel.hpp
+CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/libserial/SerialPort.h
+CMakeFiles/carsGames.dir/src/Application.cpp.o: ../../src/libserial/SerialPortConstants.h
 
 CMakeFiles/carsGames.dir/src/Config.cpp.o: ../../src/Config.cpp
 CMakeFiles/carsGames.dir/src/Config.cpp.o: ../../src/Config.hpp
 CMakeFiles/carsGames.dir/src/Config.cpp.o: ../../src/Loger.hpp
+
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/Input/ArduinoControle.cpp
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/Input/ArduinoControle.hpp
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/Loger.hpp
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/Maths/CarFormula.hpp
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/Maths/Vector3F.hpp
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/Vehicle/Car.hpp
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/Vehicle/Engine.hpp
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/Vehicle/GearBox.hpp
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/Vehicle/Steering.hpp
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/Vehicle/Wheel.hpp
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/libserial/SerialPort.h
+CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o: ../../src/libserial/SerialPortConstants.h
+
+CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.o: ../../src/Input/KeyboardControle.cpp
+CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.o: ../../src/Input/KeyboardControle.hpp
+CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.o: ../../src/Loger.hpp
+CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.o: ../../src/Maths/CarFormula.hpp
+CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.o: ../../src/Maths/Vector3F.hpp
+CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.o: ../../src/Vehicle/Car.hpp
+CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.o: ../../src/Vehicle/Engine.hpp
+CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.o: ../../src/Vehicle/GearBox.hpp
+CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.o: ../../src/Vehicle/Steering.hpp
+CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.o: ../../src/Vehicle/Wheel.hpp
 
 CMakeFiles/carsGames.dir/src/Loger.cpp.o: ../../src/Loger.cpp
 CMakeFiles/carsGames.dir/src/Loger.cpp.o: ../../src/Loger.hpp
@@ -36,17 +64,8 @@ CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o: ../../src/Vehicle/Car.cpp
 CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o: ../../src/Vehicle/Car.hpp
 CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o: ../../src/Vehicle/Engine.hpp
 CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o: ../../src/Vehicle/GearBox.hpp
+CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o: ../../src/Vehicle/Steering.hpp
 CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.o: ../../src/Vehicle/Wheel.hpp
-
-CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o: ../../src/Loger.hpp
-CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o: ../../src/Maths/CarFormula.hpp
-CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o: ../../src/Maths/Vector3F.hpp
-CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o: ../../src/Vehicle/Car.hpp
-CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o: ../../src/Vehicle/Controle.cpp
-CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o: ../../src/Vehicle/Controle.hpp
-CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o: ../../src/Vehicle/Engine.hpp
-CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o: ../../src/Vehicle/GearBox.hpp
-CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o: ../../src/Vehicle/Wheel.hpp
 
 CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.o: ../../src/Loger.hpp
 CMakeFiles/carsGames.dir/src/Vehicle/Engine.cpp.o: ../../src/Vehicle/Engine.cpp
@@ -56,19 +75,40 @@ CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.o: ../../src/Loger.hpp
 CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.o: ../../src/Vehicle/GearBox.cpp
 CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.o: ../../src/Vehicle/GearBox.hpp
 
+CMakeFiles/carsGames.dir/src/Vehicle/Steering.cpp.o: ../../src/Vehicle/Steering.cpp
+CMakeFiles/carsGames.dir/src/Vehicle/Steering.cpp.o: ../../src/Vehicle/Steering.hpp
+
 CMakeFiles/carsGames.dir/src/Vehicle/Wheel.cpp.o: ../../src/Loger.hpp
 CMakeFiles/carsGames.dir/src/Vehicle/Wheel.cpp.o: ../../src/Vehicle/Wheel.cpp
 CMakeFiles/carsGames.dir/src/Vehicle/Wheel.cpp.o: ../../src/Vehicle/Wheel.hpp
 
+CMakeFiles/carsGames.dir/src/libserial/SerialPort.cpp.o: ../../src/libserial/SerialPort.cpp
+CMakeFiles/carsGames.dir/src/libserial/SerialPort.cpp.o: ../../src/libserial/SerialPort.h
+CMakeFiles/carsGames.dir/src/libserial/SerialPort.cpp.o: ../../src/libserial/SerialPortConstants.h
+
+CMakeFiles/carsGames.dir/src/libserial/SerialStream.cpp.o: ../../src/libserial/SerialPortConstants.h
+CMakeFiles/carsGames.dir/src/libserial/SerialStream.cpp.o: ../../src/libserial/SerialStream.cpp
+CMakeFiles/carsGames.dir/src/libserial/SerialStream.cpp.o: ../../src/libserial/SerialStream.h
+CMakeFiles/carsGames.dir/src/libserial/SerialStream.cpp.o: ../../src/libserial/SerialStreamBuf.h
+
+CMakeFiles/carsGames.dir/src/libserial/SerialStreamBuf.cpp.o: ../../src/libserial/SerialPort.h
+CMakeFiles/carsGames.dir/src/libserial/SerialStreamBuf.cpp.o: ../../src/libserial/SerialPortConstants.h
+CMakeFiles/carsGames.dir/src/libserial/SerialStreamBuf.cpp.o: ../../src/libserial/SerialStreamBuf.cpp
+CMakeFiles/carsGames.dir/src/libserial/SerialStreamBuf.cpp.o: ../../src/libserial/SerialStreamBuf.h
+
 CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Application.hpp
 CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Config.hpp
+CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Input/ArduinoControle.hpp
+CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Input/KeyboardControle.hpp
 CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Loger.hpp
 CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Maths/CarFormula.hpp
 CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Maths/Vector3F.hpp
 CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Vehicle/Car.hpp
-CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Vehicle/Controle.hpp
 CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Vehicle/Engine.hpp
 CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Vehicle/GearBox.hpp
+CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Vehicle/Steering.hpp
 CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/Vehicle/Wheel.hpp
+CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/libserial/SerialPort.h
+CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/libserial/SerialPortConstants.h
 CMakeFiles/carsGames.dir/src/main.cpp.o: ../../src/main.cpp
 

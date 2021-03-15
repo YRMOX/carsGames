@@ -5,6 +5,7 @@ Wheel::Wheel(const char* TireReference){
   tireWidth = 185;
   tirePercent = 60;
   tireSize = 14;
+  grip = 5;
   diameter = (tireWidth*(tirePercent/100)*2+tireSize*25.4)/1000;
   perimeter = 3.142*(diameter/2)*2;
 }
@@ -14,6 +15,7 @@ void Wheel::setTireReference(const char* TireReference){
   tireWidth = 185;
   tirePercent = 60;
   tireSize = 14;
+  grip = 5;
   diameter = (tireWidth*(tirePercent/100)*2+tireSize*25.4)/1000;
   perimeter = 3.142*(diameter/2)*2;
 }

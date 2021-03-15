@@ -190,6 +190,60 @@ src/Config.cpp.s:
 	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Config.cpp.s
 .PHONY : src/Config.cpp.s
 
+src/Input/ArduinoControle.o: src/Input/ArduinoControle.cpp.o
+
+.PHONY : src/Input/ArduinoControle.o
+
+# target to build an object file
+src/Input/ArduinoControle.cpp.o:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.o
+.PHONY : src/Input/ArduinoControle.cpp.o
+
+src/Input/ArduinoControle.i: src/Input/ArduinoControle.cpp.i
+
+.PHONY : src/Input/ArduinoControle.i
+
+# target to preprocess a source file
+src/Input/ArduinoControle.cpp.i:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.i
+.PHONY : src/Input/ArduinoControle.cpp.i
+
+src/Input/ArduinoControle.s: src/Input/ArduinoControle.cpp.s
+
+.PHONY : src/Input/ArduinoControle.s
+
+# target to generate assembly for a file
+src/Input/ArduinoControle.cpp.s:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Input/ArduinoControle.cpp.s
+.PHONY : src/Input/ArduinoControle.cpp.s
+
+src/Input/KeyboardControle.o: src/Input/KeyboardControle.cpp.o
+
+.PHONY : src/Input/KeyboardControle.o
+
+# target to build an object file
+src/Input/KeyboardControle.cpp.o:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.o
+.PHONY : src/Input/KeyboardControle.cpp.o
+
+src/Input/KeyboardControle.i: src/Input/KeyboardControle.cpp.i
+
+.PHONY : src/Input/KeyboardControle.i
+
+# target to preprocess a source file
+src/Input/KeyboardControle.cpp.i:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.i
+.PHONY : src/Input/KeyboardControle.cpp.i
+
+src/Input/KeyboardControle.s: src/Input/KeyboardControle.cpp.s
+
+.PHONY : src/Input/KeyboardControle.s
+
+# target to generate assembly for a file
+src/Input/KeyboardControle.cpp.s:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Input/KeyboardControle.cpp.s
+.PHONY : src/Input/KeyboardControle.cpp.s
+
 src/Loger.o: src/Loger.cpp.o
 
 .PHONY : src/Loger.o
@@ -298,33 +352,6 @@ src/Vehicle/Car.cpp.s:
 	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Car.cpp.s
 .PHONY : src/Vehicle/Car.cpp.s
 
-src/Vehicle/Controle.o: src/Vehicle/Controle.cpp.o
-
-.PHONY : src/Vehicle/Controle.o
-
-# target to build an object file
-src/Vehicle/Controle.cpp.o:
-	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.o
-.PHONY : src/Vehicle/Controle.cpp.o
-
-src/Vehicle/Controle.i: src/Vehicle/Controle.cpp.i
-
-.PHONY : src/Vehicle/Controle.i
-
-# target to preprocess a source file
-src/Vehicle/Controle.cpp.i:
-	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.i
-.PHONY : src/Vehicle/Controle.cpp.i
-
-src/Vehicle/Controle.s: src/Vehicle/Controle.cpp.s
-
-.PHONY : src/Vehicle/Controle.s
-
-# target to generate assembly for a file
-src/Vehicle/Controle.cpp.s:
-	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Controle.cpp.s
-.PHONY : src/Vehicle/Controle.cpp.s
-
 src/Vehicle/Engine.o: src/Vehicle/Engine.cpp.o
 
 .PHONY : src/Vehicle/Engine.o
@@ -378,6 +405,33 @@ src/Vehicle/GearBox.s: src/Vehicle/GearBox.cpp.s
 src/Vehicle/GearBox.cpp.s:
 	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/GearBox.cpp.s
 .PHONY : src/Vehicle/GearBox.cpp.s
+
+src/Vehicle/Steering.o: src/Vehicle/Steering.cpp.o
+
+.PHONY : src/Vehicle/Steering.o
+
+# target to build an object file
+src/Vehicle/Steering.cpp.o:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Steering.cpp.o
+.PHONY : src/Vehicle/Steering.cpp.o
+
+src/Vehicle/Steering.i: src/Vehicle/Steering.cpp.i
+
+.PHONY : src/Vehicle/Steering.i
+
+# target to preprocess a source file
+src/Vehicle/Steering.cpp.i:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Steering.cpp.i
+.PHONY : src/Vehicle/Steering.cpp.i
+
+src/Vehicle/Steering.s: src/Vehicle/Steering.cpp.s
+
+.PHONY : src/Vehicle/Steering.s
+
+# target to generate assembly for a file
+src/Vehicle/Steering.cpp.s:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/Vehicle/Steering.cpp.s
+.PHONY : src/Vehicle/Steering.cpp.s
 
 src/Vehicle/Wheel.o: src/Vehicle/Wheel.cpp.o
 
@@ -433,6 +487,87 @@ src/glad/glad.c.s:
 	$(MAKE) -f CMakeFiles/glad.dir/build.make CMakeFiles/glad.dir/src/glad/glad.c.s
 .PHONY : src/glad/glad.c.s
 
+src/libserial/SerialPort.o: src/libserial/SerialPort.cpp.o
+
+.PHONY : src/libserial/SerialPort.o
+
+# target to build an object file
+src/libserial/SerialPort.cpp.o:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/libserial/SerialPort.cpp.o
+.PHONY : src/libserial/SerialPort.cpp.o
+
+src/libserial/SerialPort.i: src/libserial/SerialPort.cpp.i
+
+.PHONY : src/libserial/SerialPort.i
+
+# target to preprocess a source file
+src/libserial/SerialPort.cpp.i:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/libserial/SerialPort.cpp.i
+.PHONY : src/libserial/SerialPort.cpp.i
+
+src/libserial/SerialPort.s: src/libserial/SerialPort.cpp.s
+
+.PHONY : src/libserial/SerialPort.s
+
+# target to generate assembly for a file
+src/libserial/SerialPort.cpp.s:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/libserial/SerialPort.cpp.s
+.PHONY : src/libserial/SerialPort.cpp.s
+
+src/libserial/SerialStream.o: src/libserial/SerialStream.cpp.o
+
+.PHONY : src/libserial/SerialStream.o
+
+# target to build an object file
+src/libserial/SerialStream.cpp.o:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/libserial/SerialStream.cpp.o
+.PHONY : src/libserial/SerialStream.cpp.o
+
+src/libserial/SerialStream.i: src/libserial/SerialStream.cpp.i
+
+.PHONY : src/libserial/SerialStream.i
+
+# target to preprocess a source file
+src/libserial/SerialStream.cpp.i:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/libserial/SerialStream.cpp.i
+.PHONY : src/libserial/SerialStream.cpp.i
+
+src/libserial/SerialStream.s: src/libserial/SerialStream.cpp.s
+
+.PHONY : src/libserial/SerialStream.s
+
+# target to generate assembly for a file
+src/libserial/SerialStream.cpp.s:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/libserial/SerialStream.cpp.s
+.PHONY : src/libserial/SerialStream.cpp.s
+
+src/libserial/SerialStreamBuf.o: src/libserial/SerialStreamBuf.cpp.o
+
+.PHONY : src/libserial/SerialStreamBuf.o
+
+# target to build an object file
+src/libserial/SerialStreamBuf.cpp.o:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/libserial/SerialStreamBuf.cpp.o
+.PHONY : src/libserial/SerialStreamBuf.cpp.o
+
+src/libserial/SerialStreamBuf.i: src/libserial/SerialStreamBuf.cpp.i
+
+.PHONY : src/libserial/SerialStreamBuf.i
+
+# target to preprocess a source file
+src/libserial/SerialStreamBuf.cpp.i:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/libserial/SerialStreamBuf.cpp.i
+.PHONY : src/libserial/SerialStreamBuf.cpp.i
+
+src/libserial/SerialStreamBuf.s: src/libserial/SerialStreamBuf.cpp.s
+
+.PHONY : src/libserial/SerialStreamBuf.s
+
+# target to generate assembly for a file
+src/libserial/SerialStreamBuf.cpp.s:
+	$(MAKE) -f CMakeFiles/carsGames.dir/build.make CMakeFiles/carsGames.dir/src/libserial/SerialStreamBuf.cpp.s
+.PHONY : src/libserial/SerialStreamBuf.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -476,6 +611,12 @@ help:
 	@echo "... src/Config.o"
 	@echo "... src/Config.i"
 	@echo "... src/Config.s"
+	@echo "... src/Input/ArduinoControle.o"
+	@echo "... src/Input/ArduinoControle.i"
+	@echo "... src/Input/ArduinoControle.s"
+	@echo "... src/Input/KeyboardControle.o"
+	@echo "... src/Input/KeyboardControle.i"
+	@echo "... src/Input/KeyboardControle.s"
 	@echo "... src/Loger.o"
 	@echo "... src/Loger.i"
 	@echo "... src/Loger.s"
@@ -488,21 +629,30 @@ help:
 	@echo "... src/Vehicle/Car.o"
 	@echo "... src/Vehicle/Car.i"
 	@echo "... src/Vehicle/Car.s"
-	@echo "... src/Vehicle/Controle.o"
-	@echo "... src/Vehicle/Controle.i"
-	@echo "... src/Vehicle/Controle.s"
 	@echo "... src/Vehicle/Engine.o"
 	@echo "... src/Vehicle/Engine.i"
 	@echo "... src/Vehicle/Engine.s"
 	@echo "... src/Vehicle/GearBox.o"
 	@echo "... src/Vehicle/GearBox.i"
 	@echo "... src/Vehicle/GearBox.s"
+	@echo "... src/Vehicle/Steering.o"
+	@echo "... src/Vehicle/Steering.i"
+	@echo "... src/Vehicle/Steering.s"
 	@echo "... src/Vehicle/Wheel.o"
 	@echo "... src/Vehicle/Wheel.i"
 	@echo "... src/Vehicle/Wheel.s"
 	@echo "... src/glad/glad.o"
 	@echo "... src/glad/glad.i"
 	@echo "... src/glad/glad.s"
+	@echo "... src/libserial/SerialPort.o"
+	@echo "... src/libserial/SerialPort.i"
+	@echo "... src/libserial/SerialPort.s"
+	@echo "... src/libserial/SerialStream.o"
+	@echo "... src/libserial/SerialStream.i"
+	@echo "... src/libserial/SerialStream.s"
+	@echo "... src/libserial/SerialStreamBuf.o"
+	@echo "... src/libserial/SerialStreamBuf.i"
+	@echo "... src/libserial/SerialStreamBuf.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -15,6 +15,8 @@ Application.hpp
 /home/yrmox/Projet/C++/carsGames/src/Application.hpp
 Loger.hpp
 /home/yrmox/Projet/C++/carsGames/src/Loger.hpp
+Config.hpp
+/home/yrmox/Projet/C++/carsGames/src/Config.hpp
 Vehicle/Controle.hpp
 /home/yrmox/Projet/C++/carsGames/src/Vehicle/Controle.hpp
 Vehicle/Car.hpp
@@ -42,6 +44,24 @@ Loger.hpp
 iostream
 -
 
+/home/yrmox/Projet/C++/carsGames/src/Maths/CarFormula.cpp
+CarFormula.hpp
+/home/yrmox/Projet/C++/carsGames/src/Maths/CarFormula.hpp
+
+/home/yrmox/Projet/C++/carsGames/src/Maths/CarFormula.hpp
+../Loger.hpp
+/home/yrmox/Projet/C++/carsGames/src/Loger.hpp
+Vector3F.hpp
+/home/yrmox/Projet/C++/carsGames/src/Maths/Vector3F.hpp
+
+/home/yrmox/Projet/C++/carsGames/src/Maths/Vector3F.cpp
+Vector3F.hpp
+/home/yrmox/Projet/C++/carsGames/src/Maths/Vector3F.hpp
+
+/home/yrmox/Projet/C++/carsGames/src/Maths/Vector3F.hpp
+../Loger.hpp
+/home/yrmox/Projet/C++/carsGames/src/Loger.hpp
+
 /home/yrmox/Projet/C++/carsGames/src/Vehicle/Car.cpp
 Car.hpp
 /home/yrmox/Projet/C++/carsGames/src/Vehicle/Car.hpp
@@ -49,12 +69,12 @@ Car.hpp
 /home/yrmox/Projet/C++/carsGames/src/Vehicle/Car.hpp
 ../Loger.hpp
 /home/yrmox/Projet/C++/carsGames/src/Loger.hpp
-Formula.hpp
-/home/yrmox/Projet/C++/carsGames/src/Vehicle/Formula.hpp
+../Maths/CarFormula.hpp
+/home/yrmox/Projet/C++/carsGames/src/Maths/CarFormula.hpp
+../Maths/Vector3F.hpp
+/home/yrmox/Projet/C++/carsGames/src/Maths/Vector3F.hpp
 Wheel.hpp
 /home/yrmox/Projet/C++/carsGames/src/Vehicle/Wheel.hpp
-Vector3.hpp
-/home/yrmox/Projet/C++/carsGames/src/Vehicle/Vector3.hpp
 Engine.hpp
 /home/yrmox/Projet/C++/carsGames/src/Vehicle/Engine.hpp
 GearBox.hpp
@@ -78,29 +98,11 @@ Engine.hpp
 ../Loger.hpp
 /home/yrmox/Projet/C++/carsGames/src/Loger.hpp
 
-/home/yrmox/Projet/C++/carsGames/src/Vehicle/Formula.cpp
-Formula.hpp
-/home/yrmox/Projet/C++/carsGames/src/Vehicle/Formula.hpp
-
-/home/yrmox/Projet/C++/carsGames/src/Vehicle/Formula.hpp
-../Loger.hpp
-/home/yrmox/Projet/C++/carsGames/src/Loger.hpp
-Vector3.hpp
-/home/yrmox/Projet/C++/carsGames/src/Vehicle/Vector3.hpp
-
 /home/yrmox/Projet/C++/carsGames/src/Vehicle/GearBox.cpp
 GearBox.hpp
 /home/yrmox/Projet/C++/carsGames/src/Vehicle/GearBox.hpp
 
 /home/yrmox/Projet/C++/carsGames/src/Vehicle/GearBox.hpp
-../Loger.hpp
-/home/yrmox/Projet/C++/carsGames/src/Loger.hpp
-
-/home/yrmox/Projet/C++/carsGames/src/Vehicle/Vector3.cpp
-Vector3.hpp
-/home/yrmox/Projet/C++/carsGames/src/Vehicle/Vector3.hpp
-
-/home/yrmox/Projet/C++/carsGames/src/Vehicle/Vector3.hpp
 ../Loger.hpp
 /home/yrmox/Projet/C++/carsGames/src/Loger.hpp
 

@@ -1,7 +1,23 @@
-#include "Controle.hpp"
+#include "KeyboardControle.hpp"
 
-void Controle::carControle(Car& car){
-  
+void KeyboardControle::carControle(Car& car){
+
+  //analogVertical
+  if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Z)){
+    car.analogVertical = 1;
+  } else {
+    car.analogVertical = 0;
+  }
+
+  //analogHorizontal
+  if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Q)){
+    car.analogHorizontal = -1;
+  } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)){
+    car.analogHorizontal = 1;
+  } else {
+    car.analogHorizontal = 0;
+  }
+
   //engineState
   if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S)){
     if (keySwitch[0]){

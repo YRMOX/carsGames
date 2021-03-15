@@ -9,6 +9,7 @@ struct Wheel{
     float tireWidth;
     float tirePercent;
     float tireSize;
+    float grip;
     float diameter;
     float perimeter;
     float rpm;
